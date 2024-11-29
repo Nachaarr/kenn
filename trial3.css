@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Untitled\ design\ \(10\).png");
+    background-size: 1280px 1200px;
+    
+    
+}
+
+
+
+header {
+    background-color: #4CAF50; 
+    padding: 0; 
+}
+
+header img {
+    width: 1280px; 
+    height: 130px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #c6c6ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px; 
+}
+
+nav ul li {
+    position: relative; 
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 60;
+    max-width: 200px;
+    z-index: 1000;
+}
+
+.dropdown-menu li a {
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+konten {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+#left-column {
+    order: 1;
+    display: flex; 
+    flex-direction: column; 
+    width: 25%; 
+    margin-right: 20px; 
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(255, 128, 10);
+    box-shadow: 0 4px 8px black;
+    align-items: center;
+    gap: 10px;
+}
+#middle-column {
+    order: 2;
+}
+#right-column {
+    order: 3;
+    display: flex; 
+    flex-direction: column; 
+    width: 25%; 
+    margin-right: 20px; 
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(19, 56, 168);
+    box-shadow: 0 4px 8px black;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1280px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.kerjasama-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; 
+    margin: 2rem 0; 
+}
+
+.kerjasama-columns .column {
+    flex: 1; 
+    padding: 1rem;
+    background-color: orange;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kerjasama-columns .column img {
+    max-width: 100%; 
+    margin-bottom: 1rem; 
+}
+
+.Pengertian {
+    background-color: #7dc3ff; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px black; 
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+  }
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .ten {
+    background-color: #7dc3ff; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    padding: 20px; 
+    max-width: 1200px;
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px black; 
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: larger;
+  }
+
+  .tujuan {
+    background-color: #7dc3ff; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    padding: 20px; 
+    max-width: 1100px; 
+    margin: 20px auto; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+  }
+  
+  ol{
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: white;
+    padding: 20px;
+}
+
+ol li{
+    background-color: white;
+}
+
+.kesimpulan {
+    background-color: #7dc3ff; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px black; 
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+  }
